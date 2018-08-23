@@ -23,10 +23,10 @@ function wmzz_static_cdn_processor($str) {
 			SYSTEM_URL . 'plugins/wmzz_todcui/css/todc-bootstrap.min.css'
 		), 
 		array(
-			'http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js',
-			'http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css',
-			'http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js',
-			'http://apps.bdimg.com/libs/todc-bootstrap/3.1.1-3.2.1/todc-bootstrap.min.css'
+			'//apps.bdimg.com/libs/jquery/1.11.3/jquery.min.js',
+			'//apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css',
+			'//apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js',
+			'//apps.bdimg.com/libs/todc-bootstrap/3.1.1-3.2.1/todc-bootstrap.min.css'
 		), $str);
 }
 
